@@ -20,3 +20,5 @@ data/*.bak
 data/embeddings.npy
 data/embeddings_meta.json
 data/bm25.pkl
+
+REPORT.pdf
