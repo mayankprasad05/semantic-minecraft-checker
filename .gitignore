@@ -1,0 +1,22 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# --- tool state ---
+.freebuff/
+
+# --- run logs and scratch output ---
+*.log
+*_err.txt
+
+# --- generated index ------------------------------------------------
+# Everything here is rebuildable from fetch_corpus.py + chunk.py + index.py.
+# The embeddings alone are 42 MB and pages.jsonl is 26 MB, which is far past
+# what belongs in a repository; keep them local and document the rebuild.
+data/pages.jsonl
+data/*.bak
+data/embeddings.npy
+data/embeddings_meta.json
+data/bm25.pkl

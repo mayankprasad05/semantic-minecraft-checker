@@ -1,0 +1,57 @@
+{"query": "Diamond", "bucket": "exact-token", "relevant": ["Diamond"], "category": "materials"}
+{"query": "Netherite Ingot", "bucket": "exact-token", "relevant": ["Netherite Ingot"], "category": "materials"}
+{"query": "Ender Dragon", "bucket": "exact-token", "relevant": ["Ender Dragon"], "category": "mobs"}
+{"query": "Enchanting Table", "bucket": "exact-token", "relevant": ["Enchanting Table"], "category": "materials"}
+{"query": "how do i make my plants grow faster", "bucket": "fuzzy-intent", "relevant": ["Bone Meal"], "category": "potions"}
+{"query": "green monster that blows up when it gets close", "bucket": "fuzzy-intent", "relevant": ["Creeper"], "category": "mobs"}
+{"query": "what happens if i sleep in a bed in another dimension", "bucket": "fuzzy-intent", "relevant": ["Bed"], "category": "materials"}
+{"query": "how do i stop my items from burning in lava", "bucket": "fuzzy-intent", "relevant": ["Netherite Ingot", "Lava"], "category": "materials"}
+{"query": "what do i need to craft a bed", "bucket": "multi-hop", "relevant": ["Bed", "Planks"], "category": "materials"}
+{"query": "how do i get diamonds and what tool do i need to mine them", "bucket": "multi-hop", "relevant": ["Diamond", "Diamond Ore", "Pickaxe"], "category": "materials"}
+{"query": "what mobs drop string and what can i craft with it", "bucket": "multi-hop", "relevant": ["String", "Spider"], "category": "mobs"}
+{"query": "did the latest update change villager trading", "bucket": "version-sensitive", "relevant": ["Villager", "Trading"], "category": "mobs"}
+{"query": "which version added netherite", "bucket": "version-sensitive", "relevant": ["Netherite Ingot"], "category": "materials"}
+{"query": "potion of healing", "bucket": "exact-token", "relevant": ["Potion of Healing"], "category": "potions"}
+{"query": "potion of fire resistance", "bucket": "exact-token", "relevant": ["Potion of Fire Resistance"], "category": "potions"}
+{"query": "potion of swiftness", "bucket": "exact-token", "relevant": ["Potion of Swiftness"], "category": "potions"}
+{"query": "potion of night vision", "bucket": "exact-token", "relevant": ["Potion of Night Vision"], "category": "potions"}
+{"query": "potion of water breathing", "bucket": "exact-token", "relevant": ["Potion of Water Breathing"], "category": "potions"}
+{"query": "potion of leaping", "bucket": "exact-token", "relevant": ["Potion of Leaping"], "category": "potions"}
+{"query": "potion of invisibility", "bucket": "exact-token", "relevant": ["Potion of Invisibility"], "category": "potions"}
+{"query": "potion of poison", "bucket": "exact-token", "relevant": ["Potion of Poison"], "category": "potions"}
+{"query": "potion of slowness", "bucket": "exact-token", "relevant": ["Potion of Slowness"], "category": "potions"}
+{"query": "potion of harming", "bucket": "exact-token", "relevant": ["Potion of Harming"], "category": "potions"}
+{"query": "potion of weakness", "bucket": "exact-token", "relevant": ["Potion of Weakness"], "category": "potions"}
+{"query": "potion of turtle master", "bucket": "exact-token", "relevant": ["Potion of the Turtle Master"], "category": "potions"}
+{"query": "potion of slow falling", "bucket": "exact-token", "relevant": ["Potion of Slow Falling"], "category": "potions"}
+{"query": "drink that makes you see in the dark", "bucket": "fuzzy-intent", "relevant": ["Potion of Night Vision"], "category": "potions"}
+{"query": "brew that lets you breathe underwater", "bucket": "fuzzy-intent", "relevant": ["Potion of Water Breathing"], "category": "potions"}
+{"query": "drink that makes you jump higher", "bucket": "fuzzy-intent", "relevant": ["Potion of Leaping"], "category": "potions"}
+{"query": "drink that makes you faster", "bucket": "fuzzy-intent", "relevant": ["Potion of Swiftness"], "category": "potions"}
+{"query": "drink that stops you from taking fire damage", "bucket": "fuzzy-intent", "relevant": ["Potion of Fire Resistance"], "category": "potions"}
+{"query": "drink that heals you when you drink it", "bucket": "fuzzy-intent", "relevant": ["Potion of Healing"], "category": "potions"}
+{"query": "drink that damages undead", "bucket": "fuzzy-intent", "relevant": ["Potion of Healing"], "category": "potions"}
+{"query": "drink that makes you harder to hit but slower", "bucket": "fuzzy-intent", "relevant": ["Potion of the Turtle Master"], "category": "potions"}
+{"query": "drink that makes you fall slowly", "bucket": "fuzzy-intent", "relevant": ["Potion of Slow Falling"], "category": "potions"}
+{"query": "invisible drink", "bucket": "fuzzy-intent", "relevant": ["Potion of Invisibility"], "category": "potions"}
+{"query": "brewing stand", "bucket": "exact-token", "relevant": ["Brewing Stand"], "category": "materials"}
+{"query": "nether wart", "bucket": "exact-token", "relevant": ["Nether Wart"], "category": "materials"}
+{"query": "ghast tear", "bucket": "exact-token", "relevant": ["Ghast Tear"], "category": "materials"}
+{"query": "magma cream", "bucket": "exact-token", "relevant": ["Magma Cream"], "category": "materials"}
+{"query": "fermented spider eye", "bucket": "exact-token", "relevant": ["Fermented Spider Eye"], "category": "materials"}
+{"query": "glowstone dust", "bucket": "exact-token", "relevant": ["Glowstone Dust"], "category": "materials"}
+{"query": "gunpowder", "bucket": "exact-token", "relevant": ["Gunpowder"], "category": "materials"}
+{"query": "redstone", "bucket": "exact-token", "relevant": ["Redstone"], "category": "materials"}
+{"query": "blaze powder", "bucket": "exact-token", "relevant": ["Blaze Powder"], "category": "materials"}
+{"query": "awkward potion", "bucket": "exact-token", "relevant": ["Awkward Potion"], "category": "potions"}
+{"query": "mundane potion", "bucket": "exact-token", "relevant": ["Mundane Potion"], "category": "potions"}
+{"query": "sugar", "bucket": "exact-token", "relevant": ["Sugar"], "category": "materials"}
+{"query": "the mob that carries blocks and teleports", "bucket": "fuzzy-intent", "relevant": ["Enderman"], "category": "mobs"}
+{"query": "the hostile mob that throws potions", "bucket": "fuzzy-intent", "relevant": ["Witch"], "category": "mobs"}
+{"query": "the tiny poisonous spider in mineshafts", "bucket": "fuzzy-intent", "relevant": ["Cave Spider"], "category": "mobs"}
+{"query": "the mob that explodes when close", "bucket": "fuzzy-intent", "relevant": ["Creeper"], "category": "mobs"}
+{"query": "the skeleton that shoots arrows", "bucket": "fuzzy-intent", "relevant": ["Skeleton"], "category": "mobs"}
+{"query": "the villager that wanders selling stuff", "bucket": "fuzzy-intent", "relevant": ["Wandering Trader"], "category": "mobs"}
+{"query": "netherite was added when", "bucket": "version-sensitive", "relevant": ["Netherite Ingot"], "category": "materials"}
+{"query": "which version added endermites", "bucket": "version-sensitive", "relevant": ["Enderman"], "category": "mobs"}
+{"query": "when did potions get added", "bucket": "version-sensitive", "relevant": ["Potion"], "category": "potions"}

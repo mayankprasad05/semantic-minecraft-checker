@@ -1,0 +1,10 @@
+# Core: enough for fetch -> chunk -> BM25 index -> BM25 eval -> UI.
+numpy>=1.26
+requests>=2.31
+
+# Optional: dense retrieval + cross-encoder reranking (pulls in torch).
+# sentence-transformers>=3.0
+#
+# torch may not have wheels for a brand new Python. If `pip install
+# sentence-transformers` fails, create a venv on Python 3.11/3.12 and install
+# there -- the BM25 half of the project keeps working without either.
