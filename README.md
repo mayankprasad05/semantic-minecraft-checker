@@ -10,6 +10,36 @@ on labelled queries, a vague-description probe, and a deliberately ambiguous set
 | `hybrid` | BM25 + dense fused with weighted Reciprocal Rank Fusion |
 | `hybrid+rerank` | hybrid candidates re-scored by a cross-encoder, blended with retrieval order |
 
+## Workflow
+
+```text
+minecraft.wiki
+     │  fetch_corpus.py (MediaWiki API)
+     ▼
+data/pages.jsonl         1 record per page: title, category, url, raw wikitext
+     │  populate_versions.py (optional: adds version to 48 curated pages)
+     │  chunk.py (clean wikitext, split by section)
+     ▼
+data/chunks.jsonl        13,820 chunks: id, page, section, url, text, version, search_text
+     │  index.py
+     ├─────────────────────────────┐
+     ▼                             ▼
+data/bm25.pkl                 data/embeddings.npy
+(inverted index, 16,960 terms) (13,820 × 768 float32, L2-normalised)
+     │                             │
+     └──────────► search.py ◄──────┘
+                     │  ranked() → to_results()
+                     ├── bm25
+                     ├── dense
+                     └── hybrid (RRF fusion + BM25 gating + version prior)
+                            │
+                            ▼
+                      rerank.py  (cross-encoder, blended with hybrid order)
+                            │
+                            ▼
+          app.py (UI) · eval.py · probe.py · ambiguous_eval.py
+```
+
 ## Corpus
 
 Fetched from the live wiki through the MediaWiki API (`fetch_corpus.py`):
