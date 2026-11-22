@@ -2,7 +2,7 @@
 
 Written out rather than imported so the lexical half of the project runs on a
 bare Python install. Roughly 60 lines, and you can read every term of the
-scoring formula -- which is the point for a course project.
+scoring formula.
 """
 
 import math

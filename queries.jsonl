@@ -6,7 +6,7 @@
 {"query": "green monster that blows up when it gets close", "bucket": "fuzzy-intent", "relevant": ["Creeper"], "category": "mobs"}
 {"query": "what happens if i sleep in a bed in another dimension", "bucket": "fuzzy-intent", "relevant": ["Bed"], "category": "materials"}
 {"query": "how do i stop my items from burning in lava", "bucket": "fuzzy-intent", "relevant": ["Netherite Ingot", "Lava"], "category": "materials"}
-{"query": "what do i need to craft a bed", "bucket": "multi-hop", "relevant": ["Bed", "Planks"], "category": "materials"}
+{"query": "what do i need to craft a bed", "bucket": "multi-hop", "relevant": ["Bed", "Wool", "Planks"], "category": "materials"}
 {"query": "how do i get diamonds and what tool do i need to mine them", "bucket": "multi-hop", "relevant": ["Diamond", "Diamond Ore", "Pickaxe"], "category": "materials"}
 {"query": "what mobs drop string and what can i craft with it", "bucket": "multi-hop", "relevant": ["String", "Spider"], "category": "mobs"}
 {"query": "did the latest update change villager trading", "bucket": "version-sensitive", "relevant": ["Villager", "Trading"], "category": "mobs"}
@@ -53,5 +53,5 @@
 {"query": "the skeleton that shoots arrows", "bucket": "fuzzy-intent", "relevant": ["Skeleton"], "category": "mobs"}
 {"query": "the villager that wanders selling stuff", "bucket": "fuzzy-intent", "relevant": ["Wandering Trader"], "category": "mobs"}
 {"query": "netherite was added when", "bucket": "version-sensitive", "relevant": ["Netherite Ingot"], "category": "materials"}
-{"query": "which version added endermites", "bucket": "version-sensitive", "relevant": ["Enderman"], "category": "mobs"}
+{"query": "which version added endermites", "bucket": "version-sensitive", "relevant": ["Endermite"], "category": "mobs"}
 {"query": "when did potions get added", "bucket": "version-sensitive", "relevant": ["Potion"], "category": "potions"}
