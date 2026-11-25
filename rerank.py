@@ -46,7 +46,6 @@ def cross_encoder_scores(query, candidates):
 
 
 def _normalise(values):
-    """Min-max to [0, 1]; a flat list becomes all 1.0 so it stays neutral."""
     if not values:
         return []
     lo, hi = min(values), max(values)
